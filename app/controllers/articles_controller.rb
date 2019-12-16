@@ -25,6 +25,7 @@ class ArticlesController < ApplicationController
 
  
   def update
+    raise params.inspect
   end
   # add edit and update methods here
 end
